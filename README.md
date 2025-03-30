@@ -1,1 +1,1 @@
-# EECS440FinalProject campingSimulator
+# EECS440FinalProject
