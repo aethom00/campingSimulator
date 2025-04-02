@@ -24,15 +24,14 @@
 
 .steam-button {
   display: flex;              /* Flex container (block-level by default) */
-  width: 70%;         /* Shrinks the button to only the content's width */
+  width: fit-content;         /* Shrinks the button to only the content's width */
   margin: 0 auto;             /* Centers the button horizontally */
   align-items: center;        /* Vertically centers the image and text */
   justify-content: center;    /* Horizontally centers the content inside the button */
-  /* background-color: #2a475e; */
-  background-color: #243f60;
+  background-color: #243f60;  /* Button background color */
   color: #ffffff;             /* Text color */
   padding: 8px 12px;          /* Padding for a button feel */
-  border-radius: 50px;         /* Rounded corners */
+  border-radius: 50px;        /* Rounded corners */
   text-decoration: none;      /* Remove default underline */
   font-weight: bold;
   font-family: sans-serif;
