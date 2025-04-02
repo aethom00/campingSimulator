@@ -21,4 +21,39 @@
     object-fit: cover;
     display: block;
 }
+
+.steam-button {
+  display: flex;              /* Flex container (block-level by default) */
+  width: 70%;         /* Shrinks the button to only the content's width */
+  margin: 0 auto;             /* Centers the button horizontally */
+  align-items: center;        /* Vertically centers the image and text */
+  justify-content: center;    /* Horizontally centers the content inside the button */
+  /* background-color: #2a475e; */
+  background-color: #243f60;
+  color: #ffffff;             /* Text color */
+  padding: 8px 12px;          /* Padding for a button feel */
+  border-radius: 50px;         /* Rounded corners */
+  text-decoration: none;      /* Remove default underline */
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 6px;
+}
+
+.steam-text {
+  font-size: 30px;
+}
+
+/* Hover effect */
+.steam-button:hover {
+  background-color: #335b79;
+  /* background-color: #1b2838; */
+}
+
+/* Adjust the image inside the button */
+.steam-button img {
+  width: 10%;
+  height: auto;
+  margin-right: 16px;                /* Space between the image and text */
+}
   
